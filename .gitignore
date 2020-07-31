@@ -1,6 +1,5 @@
 node_modules/
 access.log
-.env
 package-log.js
 package-lock.json
 config/index.js
