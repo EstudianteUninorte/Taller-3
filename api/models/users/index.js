@@ -11,7 +11,7 @@ const userSchema = new Schema({
     email:          { type: String, required: true , unique:true},
 	birthdate: 		{ type: String, required:true  },	//2020-02-01
     telephones:     { type: Array, required: false },
-    role_ids:           [{ type: Schema.ObjectId, ref: "Roles" }]
+    role_ids:           [{ type: Schema.ObjectId, ref: "roles" }]
 }, { timestamps: true});
 
 const User = mongoose.model(collection, userSchema);

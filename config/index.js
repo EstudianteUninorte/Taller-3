@@ -17,7 +17,8 @@ const config = {
         port: 3000
     },
 	secretKey: process.env.SECRET_KEY,
-	tokenKey:process.env.TOKEN_KEY
+	tokenKey:process.env.TOKEN_KEY,
+	idAllUser:process.env.LIST_ALL_USER
 }
 
 module.exports = config;
